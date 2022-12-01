@@ -5,8 +5,8 @@ Here are some of my solutions and explainations to the problems i found. If you 
 
 ![2]
 
-** - Solved  : 2**
-** - Pending : ♾️**
+**Solved  : 2**\
+**Pending : ♾️**
 
 [1]: https://www.dailycodingproblem.com/
 [2]: https://media3.giphy.com/media/MUlmRFnTQxwJ2/giphy.gif?cid=ecf05e477k4lugm3mdaot77pwne6rsyui4pmgo60avjwcwbe&rid=giphy.gif&ct=g
