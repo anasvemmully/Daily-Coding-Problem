@@ -21,5 +21,4 @@ it is possible to end up with a single Qux through the following steps:
         ['B', 'G']                | (B, G) -> R
         ['R']                     |
 
-# **👉 My Solution**
 

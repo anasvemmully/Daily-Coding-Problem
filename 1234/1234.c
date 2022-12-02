@@ -1,22 +1,29 @@
 #include <stdio.h> 
 
-int transform(int[], int);
+int main(int argc , char *argv[] ) {  
 
-int main() {  
-
-    char qux[] = {'R', 'B', 'B', 'G', 'B', 'R', 'G', 'G'};
-
-    // this function spits out the length of the given array of quxes
-    // printf("\nThe size of the given array is %ld\n", sizeof(qux));
+    int i, R, G, B;
+    R = G = B = 0;
     
-    printf("the smallest of them : %d", transform(qux, 1));
+    char QUX[] = {'R', 'G', 'B', 'G', 'R'};
+    int length = sizeof(QUX);
+
+    for (i = 0 ; i < length ; i++ ) {
+        if (i == 0) printf("\nQUX : ");
+        printf("%c ", QUX[i]);
+        
+        if (QUX[i] == 'R') R++;
+        else if (QUX[i] == 'G') G++;
+        else if (QUX[i] == 'B') B++;
+
+    }
+
+    if (length > 0) {
+        printf("\nThe smallest length : ");
+        if ( R == length || B == length || G == length ) printf("%d\n", length);
+        else if ( R%2 == B%2 && R%2 == G%2 && G%2 == B%2 ) printf("%d\n", 2);
+        else printf("%d\n", 1);
+    }
 
     return 0;
-}
-
-int transform(int arr[], int merge_pos) {
-    
-    
-    
-
 }
