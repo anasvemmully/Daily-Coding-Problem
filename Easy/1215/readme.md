@@ -14,5 +14,5 @@ For example, given `100`, you can reach `1` in five steps with the following rou
 
 # **⭐ Soltion**
 
-*Just followed the procedure said* 
+*Just followed the said procedure* 
 
