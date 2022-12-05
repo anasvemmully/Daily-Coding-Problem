@@ -5,7 +5,7 @@ Here are some of my solutions and explainations to the problems i found. If you 
 
 ![2]
 
-**Solved  : 5**\
+**Solved  : 6**\
 **Pending : ♾️**
 
 [1]: https://www.dailycodingproblem.com/
