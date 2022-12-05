@@ -12,7 +12,7 @@ There are two kinds of permitted steps:
 
 For example, given `100`, you can reach `1` in five steps with the following route: `100 -> 10 -> 9 -> 3 -> 2 -> 1`.
 
-# **⭐ Soltion**
+# **⭐ Solution**
 
 *Just followed the said procedure* 
 
