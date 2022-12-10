@@ -10,6 +10,7 @@
 |6.    |[1229]|Given the root to a binary tree, count the number of unival subtrees. |✔️|
 |7.    |[1234]|Merge coloured Qux |✔️|
 |8.    |[1237]|Given a friendship list, determine the number of friend groups in the class. |✔️|
+|9.    |[1243]| Given two strings `A` and `B`, return whether or not `A` can be shifted some number of times to get `B`.|   |
 
 
 [1215]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Easy/1215
@@ -21,3 +22,4 @@
 [1220]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Easy/1220
 [1228]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Easy/1228   
 [1237]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Easy/1237
+[1243]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Easy/1243
