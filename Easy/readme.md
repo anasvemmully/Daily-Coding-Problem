@@ -15,7 +15,7 @@
 |11.    |[1243]| Given two strings `A` and `B`, return whether or not `A` can be shifted some number of times to get `B`.|   |
 
 
-[1210]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Medium/1210  
+[1210]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Easy/1210  
 [1215]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Easy/1215
 [1221]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Easy/1221   
 [1229]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Easy/1229  
