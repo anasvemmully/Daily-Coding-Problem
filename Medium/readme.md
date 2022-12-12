@@ -3,8 +3,8 @@
 | No. | #    | Description                     | Status |
 |:---: |:---: |:---                             |:---:   |
 |  1.    |[1209]        | Given a set of distinct positive integers, find the largest subset such that every pair of elements in the `subset (i, j)` satisfies either `i % j = 0` or `j % i = 0`. |   ✔️    |
-|  2.    |[1211]        | Given a stack of `N` elements, interleave the first half of the stack with the second half reversed using only one other queue. |       |
-|  3.    |[1212]        | Implement a bit array.|       |
+|  2.    |[1211]        | Given a stack of `N` elements, interleave the first half of the stack with the second half reversed using only one other queue. |   ✔️    |
+|  3.    |[1212]  🤷  | Implement a bit array.|   ✔️    |
 |  4.    |[1214]        |Given an unordered list of flights taken by someone, each represented as (origin, destination) pairs, and a starting airport, compute the person's itinerary.                                |       |
 |  5.    |[1216]        |You are given an `N` by `M` 2D matrix of lowercase letters. Determine the `minimum number of columns` that can be removed to ensure that each row is ordered from top to bottom lexicographically.                               |    ✔️   |
 |  6.  |[1225]        |Given a string of parentheses, write a function to compute the minimum number of parentheses to be removed to make the string valid                               |   ✔️     |
@@ -21,6 +21,8 @@
 |  17.   |[1241]        |Given a list of `N` people and the above operation, find a way to identify the celebrity in `O(N)` time.|   |
 |  18.   |[1242]        |Given a start word, an end word, and a dictionary of valid words, find the shortest transformation sequence from start to end.|   |
 |  19.   |[1244]        |If at most two people can fit in a rescue boat, and the maximum weight limit for a given boat is k, determine how many boats will be needed to save everyone.| ✔️  |
+|  20.   |[1245]        |Write an algorithm to justify text. Given a sequence of words and an integer line length k, return a list of strings which represents each line, fully justified.|   |
+
 
 [1209]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Medium/1209
 [1211]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Medium/1211  
@@ -41,3 +43,4 @@
 [1242]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Medium/1242
 [1241]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Medium/1241
 [1244]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Medium/1244
+[1245]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Medium/1244
