@@ -21,7 +21,10 @@
 |  17.   |[1241]        |Given a list of `N` people and the above operation, find a way to identify the celebrity in `O(N)` time.|   |
 |  18.   |[1242]        |Given a start word, an end word, and a dictionary of valid words, find the shortest transformation sequence from start to end.|   |
 |  19.   |[1244]        |If at most two people can fit in a rescue boat, and the maximum weight limit for a given boat is k, determine how many boats will be needed to save everyone.| ✔️  |
-|  20.   |[1245]        |Write an algorithm to justify text. Given a sequence of words and an integer line length k, return a list of strings which represents each line, fully justified.|   |
+|  20.   |[1245]        | Write an algorithm to justify text. Given a sequence of words and an integer line length k, return a list of strings which represents each line, fully justified.|   |
+|  21.   |[1172]        | Given pre-order and in-order traversals of a binary tree, write a function to reconstruct the tree. |   |
+|  22.   |[1167]        | Implement integer exponentiation. That is, implement the `pow(x, y)` function, where `x` and `y` are integers and returns `x^y`.  |   |
+|  23.   |[1166]        | Given a 2-D matrix representing an image, a location of a pixel in the screen and a color `C`, replace the color of the given pixel and all adjacent same colored pixels with `C`. |   |
 
 
 [1209]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Medium/1209
@@ -44,3 +47,6 @@
 [1241]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Medium/1241
 [1244]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Medium/1244
 [1245]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Medium/1244
+[1172]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Medium/1172
+[1167]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Medium/1167
+[1166]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Medium/1166

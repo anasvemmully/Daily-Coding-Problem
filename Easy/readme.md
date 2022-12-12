@@ -13,6 +13,14 @@
 |9.    |[1234]|Merge coloured Qux |✔️|
 |10.    |[1237]|Given a friendship list, determine the number of friend groups in the class. |✔️|
 |11.    |[1243]| Given two strings `A` and `B`, return whether or not `A` can be shifted some number of times to get `B`.| ✔️  |
+|12.    |[1168]| Write a function that plays the 24 game. |   |
+|13.    |[1164]| Write a function that, given n, returns the number of rounds you'd expect to play until one coin remains. |   |
+|14.    |[1163]| Given a collection of intervals, find the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping.  |   |
+|15.    |[1160]| Given this string, return the original integers in sorted order.   |   |
+
+
+
+
 
 
 [1210]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Easy/1210  
@@ -27,3 +35,7 @@
 [1237]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Easy/1237
 [1243]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Easy/1243
 [1219]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Easy/1219
+[1168]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Easy/1168
+[1164]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Easy/1164
+[1163]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Easy/1163
+[1160]:https://github.com/anasvemmully/Daily-Coding-Problem/tree/main/Easy/1160
