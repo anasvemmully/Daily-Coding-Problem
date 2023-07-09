@@ -1,0 +1,33 @@
+# Jekyll build output
+_site/
+
+# Jekyll cache and logs
+.jekyll-cache/
+.jekyll-metadata
+.jekyll-include-cache/
+.jekyll-drafts/
+
+# Generated files
+.sass-cache/
+.cache/
+.jekyll-auto/
+.jekyll-archives/
+
+# Environment-specific output
+.env
+.env.*
+
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# Build and package files
+package-lock.json
+yarn.lock
+Gemfile.lock
+.DS_Store
+Thumbs.db
