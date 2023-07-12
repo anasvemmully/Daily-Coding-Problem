@@ -1,0 +1,23 @@
+// define variables here!
+
+$Caprasimo: 'Caprasimo', cursive;
+$OpenSans: 'Open Sans', sans-serif;
+$RobotoSlab: 'Roboto Slab', serif;
+
+$dark: black;
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    // color: white ;
+}
+
+.container {
+    color: black;
+    background-color: white;
+    margin: 0rem 6rem ;
+    height: 100vh; // need to change
+}

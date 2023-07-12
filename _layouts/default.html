@@ -1,10 +1,61 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-    {{ content }}
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% include styles.html %}
+  <title>{{ site.title }}</title>
+</head>
+
+<body>
+  {% include navigation.html %}
+
+  <div class="container">
+    <div class="container-block container-block-first">
+      <div class="block-1">
+        <div>Contribute interesting questions and solutions</div>
+        <div>
+          <a href="{{ site.github_link }}" class="contribute">
+            Contribute
+          </a>
+        </div>
+      </div>
+      <div class="block-2">
+
+      </div>
+    </div>
+    <div class="container-block container-block-second">
+      <div class="sub-block-easy">
+        <div class="sub-block-wrap">
+          <div class="sub-block-head">Easy</div>
+          <div class="sub-block-content">
+            Beginner-friendly coding fun awaits! Get ready to level up with confidence!
+          </div>
+        </div>
+        <div class="sub-block-bg"></div>
+      </div>
+      <div class="sub-block-medium">
+        <div class="sub-block-wrap">
+          <div class="sub-block-head">Medium</div>
+          <div class="sub-block-content">
+            Midway Madness! Get ready to embrace the excitement of problem-solving!
+          </div>
+        </div>
+        <div class="sub-block-bg"></div>
+      </div>
+      <div class="sub-block-hard">
+        <div class="sub-block-wrap">
+          <div class="sub-block-head">Hard</div>
+          <div class="sub-block-content">
+            Ultimate coding adventure alert! Master advanced techniques and conquer the
+            challenge!
+          </div>
+        </div>
+        <div class="sub-block-bg"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
