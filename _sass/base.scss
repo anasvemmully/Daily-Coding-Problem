@@ -17,19 +17,8 @@ $dark: black;
     color: white;
 }
 
-:root {
-
-    --shine-degree: 120deg;
-    --shine-color: rgba(255, 255, 255, 0.1);
-    --shine-effect: linear-gradient(var(--shine-degree),
-            transparent,
-            var(--shine-color),
-            transparent);
-    --shine-transition: all #{$anim-speed}s ease-in-out;
-}
-
 body {
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(24, 24, 25);
 }
 
 .container {
