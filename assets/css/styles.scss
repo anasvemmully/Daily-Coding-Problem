@@ -41,6 +41,7 @@
             .contribute {
                 text-decoration: none;
                 display: inline;
+                width: 200px;
                 background-color: rgb(0, 94, 0);
                 color: white;
                 border: 1px solid black;
@@ -49,6 +50,7 @@
                 font-weight: 500;
                 border-radius: 100px;
                 padding: 1rem 2rem;
+
             }
 
         }
@@ -80,7 +82,7 @@
         .sub-block-medium,
         .sub-block-hard {
             cursor: pointer;
-
+            text-decoration: none;
             border: 2px solid white;
             border-radius: 20px;
             flex-grow: 1;
@@ -88,24 +90,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-
-            
-            
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-
 
             .sub-block-content {
                 margin-top: 10px;
@@ -130,10 +114,6 @@
             padding: 2rem 0rem 0rem 2rem;
             flex-direction: row;
 
-            
-            
-            
-
             .first-image {
 
                 align-self: flex-end;
@@ -147,12 +127,6 @@
         .sub-block-medium {
             padding: 3rem 2rem 3rem 2rem;
             flex-basis: 100px;
-            
-
-            
-            
-            
-            
 
             .second-image {
                 height: 200px;
@@ -166,10 +140,6 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-
-            
-            
-            
 
             .sub-block-content {
                 padding-bottom: 2rem;

@@ -428,8 +428,20 @@
                 }
 
                 .sub-block-hard {
+
+                    flex-direction: column;
+
+                    .third-image {
+                        align-self: center;
+                        height: 200px;
+                    }
+
+                    .sub-block-content {
+                        padding-bottom: 0rem;
+                    }
+
                     .sub-block-wrap {
-                        padding-bottom: 3rem;
+                        padding-bottom: 0rem;
                     }
                 }
             }

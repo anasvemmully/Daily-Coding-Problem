@@ -7,8 +7,11 @@
 
 <body>
     {% include navigation.html %}
-    
-    {{content}}
+
+    {% for post in site.categories[page.title] %}
+        {{ post.title }} <br>
+    {% endfor %}
+
 </body>
 
 </html>
