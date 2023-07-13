@@ -3,7 +3,8 @@
 $Caprasimo: 'Caprasimo', cursive;
 $OpenSans: 'Open Sans', sans-serif;
 $RobotoSlab: 'Roboto Slab', serif;
-
+$anim-duration: 4; // in seconds
+$anim-speed: 0.65; // in seconds
 $dark: black;
 
 *,
@@ -13,11 +14,26 @@ $dark: black;
     margin: 0;
     box-sizing: border-box;
     font-family: $RobotoSlab !important;
+    color: white;
+}
+
+:root {
+
+    --shine-degree: 120deg;
+    --shine-color: rgba(255, 255, 255, 0.1);
+    --shine-effect: linear-gradient(var(--shine-degree),
+            transparent,
+            var(--shine-color),
+            transparent);
+    --shine-transition: all #{$anim-speed}s ease-in-out;
+}
+
+body {
+    background-color: rgb(24, 24, 24);
 }
 
 .container {
     color: black;
-    background-color: white;
-    margin: 0rem 6rem ;
-    // height: 100vh; // need to change
+    background-color: rgb(24, 24, 24);
+    margin: 0rem 6rem;
 }

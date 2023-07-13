@@ -4,40 +4,40 @@
 @import "navigation";
 
 .container {
-    
+
     margin-bottom: 6rem;
 
     .container-block {
         display: flex;
     }
-    
+
     .container-block-first {
-        
+
         flex-direction: row;
-        
+
         .block-1,
         .block-2 {
-            // font-family: $RobotoSlab;
-            // flex-grow: 1;
+            
+            
             border-radius: 20px;
-            border: 2px solid black;
+            border: 2px solid white;
             height: 500px;
         }
-        
+
         .block-1 {
             width: 60%;
             padding: 3rem 2rem;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            
+
             div {
-                color: black;
+                color: white;
                 font-size: 4.2rem;
                 font-weight: bold;
-                
+
             }
-            
+
             .contribute {
                 text-decoration: none;
                 display: inline;
@@ -50,90 +50,131 @@
                 border-radius: 100px;
                 padding: 1rem 2rem;
             }
-            
+
         }
-        
+
         .block-2 {
             display: flex;
             width: 40%;
             justify-content: center;
             align-items: center;
-            
+
             img {
                 width: 100%;
-                animation: floating 2.5s infinite ease-in-out;   
+                animation: floating 2.5s infinite ease-in-out;
             }
         }
     }
-    
+
     .container-block-second {
-        
+
         flex-direction: row;
         flex-wrap: wrap;
-        
+
         .sub-block-head {
             font-size: 3rem;
             font-weight: bold;
         }
-        
+
         .sub-block-easy,
         .sub-block-medium,
         .sub-block-hard {
-            border: 2px solid black;
+            cursor: pointer;
+
+            border: 2px solid white;
             border-radius: 20px;
             flex-grow: 1;
             gap: 1rem;
             display: flex;
             justify-content: center;
             align-items: center;
+
             
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+
+
             .sub-block-content {
                 margin-top: 10px;
                 font-weight: bold;
                 font-size: 1.4rem;
             }
-            
+
             .sub-block-wrap {
                 display: flex;
                 flex-direction: column;
+
+                .link {
+                    font-size: 1.6rem;
+                }
             }
-            
-            
+
+
         }
-        
+
         .sub-block-easy {
             flex-basis: 100px;
             padding: 2rem 0rem 0rem 2rem;
             flex-direction: row;
+
             
+            
+            
+
             .first-image {
-                
+
                 align-self: flex-end;
                 transform: rotateY(180deg);
                 height: 200px;
                 border-radius: 18px;
-                
+
             }
         }
-        
+
         .sub-block-medium {
-            padding: 3rem 2rem 3rem 1rem;
+            padding: 3rem 2rem 3rem 2rem;
             flex-basis: 100px;
-            flex-direction: row-reverse;
             
+
+            
+            
+            
+            
+
             .second-image {
                 height: 200px;
             }
-            
+
         }
-        
+
         .sub-block-hard {
             padding: 3rem 0rem 0rem 2rem;
             flex-basis: 100px;
             flex-direction: row;
             justify-content: center;
             align-items: center;
+
             
+            
+            
+
+            .sub-block-content {
+                padding-bottom: 2rem;
+            }
+
             .third-image {
                 align-self: flex-end;
                 height: 200px;
@@ -147,9 +188,17 @@
 }
 
 @keyframes floating {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, -0px); }   
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
 }
 
 @import "medias";
